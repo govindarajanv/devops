@@ -1,14 +1,41 @@
 -	Networking
 	-	How DNS resolution works, entire flow
 	-	diff between UDP and TCP/IP
+		-	TCP can establish a Connection and UDP cannot
+			TCP provides a stream of unlimited length, UDP sends Small packets
+			UDP provides not guarantee delivery where as TCP gurantees delivery
+			UDP is faster as data can be sent in less time then it takes for TCP to establish a connection
 -	Restful
 	-	diff between GET and POST
 	-	HTTP methods
 	-	HTTP error codes
 	-	diff between microservices and monolithic services
+	-	diff between SOAP and Restful
+		-	SOAP
+			-	protocol
+			-	cant use REST as it is a protocol
+			-	uses services interface to expose business logic
+			-	standards are to be strictly followed
+			-	requires more bandwidth
+			-	uses XML format only
+		-	Restful
+			-	architectural style
+			-	can use SOAP as it is a concept and can use protocols like http, soap etc
+			-	uses URI to expose business logic
+			-	requires less bandwidth
 -	OS
 	-	Diff between process, thread and service
+		-	process is a software that is running on a system  (e.g) grep
+			service publishes methods to access them, so other programs can call them and get their service (e.g) tomcat
+			Services are processes, often started when the system starts up, that run in the background in order to provide some additional functionality.
+			These are often called daemons (pronounced like demon) and provide facilities such as SSH, email and automatic mounting of disks.
+
 	-	explain the output of netstat
+	-	fork
+	-	redirection and piping
+	-	how to bring a process to foreground and background
+	-	what if the shell is exited, what will happen to a process running in the background
+	-	what is zombie
 -	Scripting
 	-	how do you split files based on the number of lines
 	-	how to aggregate contents of a file based on date (the file has different date format) and that has to be read and put in a file if age of the entry is 		less than 3 days old
