@@ -1,0 +1,14 @@
+-	Networking
+	-	How DNS resolution works, entire flow
+	-	diff between UDP and TCP/IP
+-	Restful
+	-	diff between GET and POST
+	-	HTTP methods
+	-	HTTP error codes
+	-	diff between microservices and monolithic services
+-	OS
+	-	Diff between process, thread and service
+	-	explain the output of netstat
+-	Scripting
+	-	how do you split files based on the number of lines
+	-	how to aggregate contents of a file based on date (the file has different date format) and that has to be read and put in a file if age of the entry is 		less than 3 days old
