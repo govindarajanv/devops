@@ -1,4 +1,6 @@
 -	Networking
+	-	How to attach multiple private ip to a VM in baremetal
+	-	How do you identify a request coming from internal or internet
 	-	How DNS resolution works, entire flow
 	-	diff between UDP and TCP/IP
 		-	TCP can establish a Connection and UDP cannot
@@ -36,6 +38,18 @@
 	-	how to bring a process to foreground and background
 	-	what if the shell is exited, what will happen to a process running in the background
 	-	what is zombie
+	-	how to create a non zero byte file in linux
+	-	how to change a root password
+	-	What is LVM and its significance?
+	-	what is the difference between a load average and cpu utilization?
+	-	What all the tools that you use to get the load average and cpu utilization
+-	Devops
+	-	How do you replicate a queue in DR which is already available in production
+	-	How IAM works?
+	-	What is SAML?
+	-	What is VRRP protocol?
+-	DB
+	-	How to you plan your DB for DR? Explain about Replication, how a transaction commit behaves when only master DB has the updates and failure to update secondary DB
 -	Scripting
 	-	how do you split files based on the number of lines
 	-	how to aggregate contents of a file based on date (the file has different date format) and that has to be read and put in a file if age of the entry is 		less than 3 days old
