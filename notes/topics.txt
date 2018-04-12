@@ -48,6 +48,8 @@
 	-	How IAM works?
 	-	What is SAML?
 	-	What is VRRP protocol?
+	-	How do you generate CSR, Certificate and CA and configure them?
+	-	How does SSL Handshake work?
 -	DB
 	-	How to you plan your DB for DR? Explain about Replication, how a transaction commit behaves when only master DB has the updates and failure to update secondary DB
 -	Scripting
